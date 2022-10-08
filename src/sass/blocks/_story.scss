@@ -1,0 +1,8 @@
+.story {
+    margin-top: 200px;
+    min-height: 930px;
+    &__grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
