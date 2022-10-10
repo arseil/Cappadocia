@@ -1,87 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cappadocia</title>
-    <link rel="stylesheet" href="css/style.min.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cappadocia</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="header">
-        <div class="container">
-            <nav class="header__wrapper">
-                <ul class="header__menu">
-                    <li><a href="#" class="header__link">Маршрут</a></li>
-                    <li><a href="#" class="header__link">Отель</a></li>
-                    <li><a href="#" class="header__link">Стоимость</a></li>
-                </ul>
-                <div >
-                    <img src="icons/phone.svg" alt="phone">
-                    <a href="tel:+380665557776" class="header__phone">+38(066)555-777-6</a>
-                </div>
-                
-            </nav>
-            <div class="header__body">
-                <h1 class="header__title">Cappadocia</h1>
-                <h2 class="header__subtitle">Эксклюзивный тур</h2>
-            </div>
-        </div>
-    </section>
+	<section class="header">
+		<div class="container">
+			<nav class="header__wrapper">
+				<ul class="header__menu">
+					<li><a href="#" class="header__link">Маршрут</a></li>
+					<li><a href="#" class="header__link">Отель</a></li>
+					<li><a href="#" class="header__link">Стоимость</a></li>
+				</ul>
+				<div >
+					<img src="icons/phone.svg" alt="phone">
+					<a href="tel:+380665557776" class="header__phone">+38(066)555-777-6</a>
+				</div>
+				
+			</nav>
+			<div class="header__body">
+				<h1 class="header__title">Cappadocia</h1>
+				<h2 class="header__subtitle">Эксклюзивный тур</h2>
+			</div>
+		</div>
+	</section>
 
-    <section class="story">
-        <div class="story__wrapper">
-            <h3 class="story__subtitle">Fairy tail</h3>
-            <h2 class="story__title">Сказочная страна чудес</h2>
-        </div>
-        <div class="story__grid">
-            <div class="carousel">
-                <div class="carousel__inner">
-                    <div>
-                        <img src="img/fairy_tail/fairy_tail1.jpg" alt="fairy_tail1">
-                    </div>
-                    <div>
-                        <img src="img/fairy_tail/fairy_tail2.jpg" alt="fairy_tail2">
-                    </div>
-                    <div>
-                        <img src="img/fairy_tail/fairy_tail3.jpg" alt="fairy_tail3">
-                    </div>
-                </div>
-            </div>
-            <div class="story__descr">
-                <p>
-                    Каппадокия - сказочная страна воздушных шаров, сырных домиков, разноцветных долин и волшебных рассветов! 
-                    Сюда приезжают, чтобы увидеть природные чудеса, полетать на воздушном шаре и конечно же сделать миллион красивых фотографий! 
-                </p>
-                <br><br>
-                <p>
-                    Участников тура ждёт профессиональная фотосессия от лучших фотографов Каппадокии!
-                    Ведь именно за волшебными фото на рассвете на фоне воздушных шаров сюда приезжают люди со всего мира!
-                </p>
-                <br><br>
-                <span>Также Вы увидите:</span>
-                <p>
-                    Музей на открытом воздухе в Гёреме<br>
-                    Ущелье Ыхлара и монастырь Селиме<br>
-                    Подземные города<br>
-                    Крепость Учхисар<br>
-                    Зельве и Пашабаг
-                </p>
-                <br><br>
-                <p>и многие другие достпримечательности.</p>
-                <br><br>
-                <p>
-                    Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет.
-                </p>
-            </div>
-        </div>
-    </section>
+	
 
-    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<section class="story">
+		<div class="story__wrapper">
+			<h3 class="story__subtitle">Fairy tail</h3>
+			<h2 class="story__title">Сказочная страна чудес</h2>
+		</div>
+		<div class="story__grid">
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img src="img/fairy_tail/fairy_tail1.jpg" class="d-block w-100" alt="fairy_tail1">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/fairy_tail/fairy_tail2.jpg" class="d-block w-100" alt="fairy_tail2">
+				  </div>
+				  <div class="carousel-item">
+					<img src="img/fairy_tail/fairy_tail3.jpg" class="d-block w-100" alt="fairy_tail3">
+				  </div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<div class="story__descr">
+				<br><br>
+				<p>
+					Каппадокия - сказочная страна воздушных шаров, сырных домиков, разноцветных долин и волшебных рассветов! 
+					Сюда приезжают, чтобы увидеть природные чудеса, полетать на воздушном шаре и конечно же сделать миллион красивых фотографий! 
+				</p>
+				<br><br>
+				<p>
+					Участников тура ждёт профессиональная фотосессия от лучших фотографов Каппадокии!
+					Ведь именно за волшебными фото на рассвете на фоне воздушных шаров сюда приезжают люди со всего мира!
+				</p>
+				<br><br><br>
+				<span>Также Вы увидите:</span>
+				<br><br><br><br>
+				<p>
+					Музей на открытом воздухе в Гёреме<br>
+					Ущелье Ыхлара и монастырь Селиме<br>
+					Подземные города<br>
+					Крепость Учхисар<br>
+					Зельве и Пашабаг
+				</p>
+				<br><br>
+				<p>и многие другие достпримечательности.</p>
+				<br><br><br>
+				<p>
+					Местная кухня — один из поводов посетить Каппадокию, здесь есть рестораны на любой бюджет.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script> -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/script.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

@@ -1,8 +1,38 @@
 .story {
+    position: relative;
     margin-top: 200px;
     min-height: 930px;
+    &__subtitle {
+        margin-left: 360px;
+        font-family: 'Balqis';
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 128px;
+        color: #E2AB3F;
+    }
+    &__title {
+        top: 104px;
+        position: absolute;
+        left: 539px;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
     &__grid {
+        margin-top: 110px;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 960px 545px;
+        column-gap: 55px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        span {
+            font-weight: 400;
+        }
     }
 }
