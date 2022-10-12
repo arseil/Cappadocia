@@ -1,4 +1,5 @@
 .btn {
+    display: block;
     width: 280px;
     height: 50px;
     background: #FFFFFF;
@@ -12,5 +13,8 @@
         background: #E2AB3F;
         border: 1px solid #E2AB3F;
         color: #ffffff;
+    }
+    &_request {
+        margin: 0 auto;
     }
 }

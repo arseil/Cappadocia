@@ -1,0 +1,51 @@
+.request {
+    padding-top: 200px;
+    min-height: 800px;
+    &__grid {
+        display: grid;
+        grid-template-columns: 383px 600px;
+        column-gap: 115px;
+        justify-content: end;
+    }
+    &__descr {
+        margin-top: 70px;
+    }
+    &__head {
+        position: relative;
+    }
+    &__subtitle {
+		margin-left: 10px;
+        &-price {
+            margin-left: 140px;
+        }
+    }
+	&__title {
+		top: 104px;
+		left: 150px;
+        &-price {
+            left: 250px;
+        }
+	}
+    &__text {
+        text-align: center;
+        margin-top: 100px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__form {
+        margin-top: 50px;
+    }
+    &__input {
+        margin-bottom: 20px;
+        input {
+            padding: 0 30px;
+            width: 100%;
+            height: 50px;
+            outline: #e2ab3f;
+            background: #FFFFFF;
+            border: 1px solid #E2AB3F;
+        }
+    }
+}
