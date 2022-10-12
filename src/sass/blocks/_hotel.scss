@@ -1,0 +1,22 @@
+.hotel {
+    position: relative;
+    &__subtitle {
+		margin-left: 0;
+	}
+	&__title {
+		top: 100px;
+		left: 120px;
+	}
+    &__grid {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 500px 600px;
+		column-gap: 100px;
+    }
+    &__gallery {
+        margin-top: 80px;
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(2, auto);
+        gap: 40px;
+    }
+}
