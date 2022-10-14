@@ -2,4 +2,55 @@
     margin-top: 200px;
     min-height: 1180px;
 	background: url('../img/contacts/contacts_bg.jpg') center center/cover no-repeat;
+    &__item {
+        position: relative;
+        z-index: 1;
+    }
+    &__subtitle {
+        padding-top: 160px;
+        margin-left: 50px;
+        font-size: 86px;
+        line-height: 115px;
+        color: #E2AB3F;
+    }
+    &__phone {
+        margin-top: 40px;
+        margin-left: 50px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+    &__email {
+        margin-top: 20px;
+        margin-left: 50px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+    &__social {
+        margin-top: 40px;
+        margin-left: 117px;
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__air {
+        z-index: -1;
+        position: absolute;
+        top: 100px;
+    }
+    &__title {
+        top: 304px;
+		position: absolute;
+		left: 539px;
+        h2 {
+            margin-left: 0;
+            color: #000000;
+            font-weight: 400;
+            font-size: 86px;
+            line-height: 115px;
+        }
+    }
 }
