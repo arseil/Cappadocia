@@ -36,4 +36,8 @@ p {
 	position: relative;
     max-width: 1200px;
     margin: 0 auto;
+	--bs-gutter-x: unset;
+	&_xl {
+		max-width: 1920px;
+	}
 }
